@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 0;
+}
+
+.marksheet-container {
+  background: white;
+  width: 700px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: relative;
+}
+
+.college-logo {
+  width: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.header p {
+  margin: 0;
+}
+
+.student-details,
+.footer,
+.date {
+  margin-top: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #000;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  text-align: right;
+  margin-top: 10px;
+}
+
+h4 {
+  margin: 0;
+}
